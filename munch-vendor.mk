@@ -428,7 +428,7 @@ PRODUCT_PACKAGES += \
     libhfp \
     liblistensoundmodel2 \
     libmm-hdcpmgr \
-    libmmosal \
+    libmmosal_vendor \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libmulawdec \
@@ -461,7 +461,7 @@ PRODUCT_PACKAGES += \
     libasphere \
     libshoebox \
     vendor.qti.hardware.audiohalext@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     libxlog \
     android.hardware.secure_element@1.0-impl \
@@ -559,7 +559,7 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.sr \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
@@ -950,7 +950,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.xiaomi.hardware.fx.tunnel@1.0 \
