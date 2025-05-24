@@ -1005,6 +1005,7 @@ PRODUCT_PACKAGES += \
     libwfdmminterface \
     libwfdmmsink \
     libwfdmmsrc_system \
+    libwfdnative \
     libwfdrtsp \
     libwfdservice \
     libwfdsinksm \
