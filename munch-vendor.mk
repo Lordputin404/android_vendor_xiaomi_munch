@@ -1121,6 +1121,7 @@ PRODUCT_PACKAGES += \
     tftp_server \
     thermal-engine \
     time_daemon \
+    toucheventcheck \
     vppservice \
     wifidisplayhalservice \
     xtra-daemon \
