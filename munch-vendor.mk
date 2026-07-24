@@ -180,6 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/munch/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/munch/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/munch/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
+    vendor/xiaomi/munch/proprietary/vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc \
     vendor/xiaomi/munch/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/munch/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/xiaomi/munch/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -340,6 +341,7 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
+    vendor.xiaomi.hardware.touchfeature@1.0-impl \
     vulkan.adreno \
     libC2D2 \
     libCB \
@@ -374,6 +376,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
+    vendor.xiaomi.hardware.touchfeature@1.0 \
     btaudio_offload_if \
     audio.primary.kona \
     sound_trigger.primary.kona \
@@ -1075,6 +1078,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.secure_element@1.2-service \
+    vendor.xiaomi.hardware.touchfeature@1.0-service \
     ims_rtp_daemon \
     imsdatadaemon \
     imsqmidaemon \
