@@ -377,11 +377,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     btaudio_offload_if \
-    audio.primary.kona \
+    audio.primary.munch \
     sound_trigger.primary.kona \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libFileMux_proprietary \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -425,7 +424,6 @@ PRODUCT_PACKAGES += \
     libsmwrapper \
     libsndmonitor \
     libspkrprot \
-    libssrec \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -1022,6 +1020,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
+    liba2dpoffload_odm \
+    libssrec_odm \
     CACertService \
     CneApp \
     IWlanService \
